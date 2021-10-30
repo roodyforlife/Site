@@ -104,6 +104,12 @@ body{
     padding: 15px 50px;
 }
 
+#cli{
+    background: url(1.gif);
+    /* filter: blur(1px); */
+}
+
+
 @keyframes move_top {
     25% {
       left: 0%;
