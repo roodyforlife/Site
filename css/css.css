@@ -16,7 +16,7 @@ body{
 
 .block_background{
     width: 63%;
-    background: #333;
+    /* background: #333; */
     /* background-image: url(gor.gif) ; */
     /* background-size: cover; */
     /* display: block;  */
