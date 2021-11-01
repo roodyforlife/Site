@@ -6,24 +6,32 @@ body{
    /* display: flex; */
    /* justify-content: center; */
    align-items: center;
-   height: 100vh;
+   /* height: 100vh; */
    font-family: Consolas;
-   background: url(img/1.gif);
+   background-image: url(gor.gif) ;
+   background-size: cover;
    background-color: rgb(0, 0, 0);
    
 }
 
 .block_background{
-    width:1200px;
+    width: 63%;
     background: #333;
+    /* background-image: url(gor.gif) ; */
+    /* background-size: cover; */
+    /* display: block;  */
     margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
 }
 
 .square {
-    margin: 0;
-    width: 100%;
-  height: 15%;
+    width: 63%;
+  height: 80px;
     background-color: #302d2d;
+    margin: auto;
+    border-radius: 15px;
 }
 
 #col_gr{
@@ -34,10 +42,11 @@ body{
 }
 .button{
     margin-top: 2%;
-    margin-left: 20px;
+    margin-left: 6%;
     position: relative;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 25px;
+  
     /* background-color: #2196f3; */
     /* color: #333; */
     text-transform: uppercare;
@@ -146,7 +155,8 @@ body{
     /* margin: auto; */
     margin-top: 3%;
     margin-left: 2%;
-    width: 300px;
+    margin-bottom: 3%;
+    width: 28%;
     height: 300px;
     box-shadow: 1px 1px 4px rgba(14, 14, 14, 3);
     border: 15px solid rgba(255, 255, 255, 0.15);
@@ -169,29 +179,12 @@ a{
     background-color: #2196f3;
     /* color: #333; */
     transition-delay: 0.01s ;
-    padding: 15px 50px;
-    animation-duration: 0.2s;
-    animation-name: block123;
+    padding: 15px 15px;
+    transition: 0.6s;
+    margin-top: 2%;
+
 }
 
-@keyframes block123{
-    from {
-        width: 300px;
-        height: 300px;
-    }
-    25% {
-        width: 310px;
-        height: 310px;
-    }
-    50% {
-        width: 320px;
-        height: 320px;
-    }
-    75% {
-        width: 330px;
-        height: 330px;
-    }
-}
 
 .block::before{
     content: '';
@@ -215,6 +208,8 @@ a{
     display: flex;
     justify-content: center;
 }
+
+
 
 footer {
     margin: 0 1.5% 24px 1.5%;
